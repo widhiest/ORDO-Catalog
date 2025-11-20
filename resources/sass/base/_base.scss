@@ -1,0 +1,25 @@
+// resources/sass/base/_base.scss
+
+// Global Reset
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Body & Typography Dasar
+body {
+    font-family: $font-family-primary;
+    color: $color-text-dark;
+    background-color: $color-background;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+// Global utility class untuk Container
+.container {
+    width: 90%;
+    max-width: 1280px; // Sesuaikan dengan lebar frame Figma
+    margin: 0 auto;
+    padding: 0 $spacing-md; // Padding di sisi kiri/kanan
+}

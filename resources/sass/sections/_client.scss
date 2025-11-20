@@ -1,0 +1,43 @@
+// resources/sass/sections/_clients.scss
+
+.clients-section {
+    // Client Section biasanya memiliki background yang sama dengan section di atas atau di bawahnya.
+    // Kita asumsikan background-nya sama dengan Feature Section (#F5F5F5).
+    background-color: #FFFFFF; 
+    
+    // Padding Vertikal: Memberi jarak ke atas dan ke bawah section.
+    padding: 80px 0; // Sesuaikan jika jarak di Figma berbeda.
+
+    .clients-logo-grid {
+        display: grid;
+        
+        // Tata letak 5 kolom yang sama besar (Untuk 10 logo: 5 di atas, 5 di bawah)
+        grid-template-columns: repeat(5, 1fr); 
+        
+        // Jarak (Gap) Antar Logo: Jarak Vertikal (baris) dan Horizontal (kolom)
+        gap: 40px 60px; // Sesuaikan jika jarak di Figma berbeda.
+
+        .client-logo-item {
+            display: flex;
+            justify-content: center; /* Tengahkan logo secara horizontal di dalam cell grid */
+            align-items: center;     /* Tengahkan logo secara vertikal di dalam cell grid */
+            height: 80px; /* Tinggi item agar baris tetap rapi */
+
+            img {
+                max-width: 80%; /* Logo tidak boleh melebihi 80% lebar cell-nya */
+                height: auto;
+                
+                // Styling Logo: Umumnya logo klien dibuat pudar (grayscale dan opacity rendah).
+                opacity: 0.5; 
+                filter: grayscale(100%); 
+                
+                // Efek hover: Logo menjadi jelas saat disentuh
+                transition: opacity 0.3s, filter 0.3s;
+                &:hover {
+                    opacity: 1;
+                    filter: grayscale(0%);
+                }
+            }
+        }
+    }
+}

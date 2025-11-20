@@ -1,0 +1,18 @@
+// resources/sass/app.scss
+
+// 1. Base dan Variables harus di-import pertama
+@import 'base/variables';
+@import 'base/base';
+
+// 2. Layouts (Header, Footer, Nav, dsb.)
+// @import 'layouts/header'; 
+// @import 'layouts/footer'; 
+// @import 'layouts/navbar';
+
+// 3. Components (Button, Card, Alert, dsb.)
+@import 'components/button'; 
+
+// 4. Sections/Pages (Hero, Pricing, Contact, dsb.)
+@import 'sections/hero';
+@import 'sections/features';
+@import 'sections/client';

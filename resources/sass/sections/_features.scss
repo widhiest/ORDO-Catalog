@@ -1,0 +1,65 @@
+// resources/sass/sections/_features.scss
+
+.features-section {
+    // Background section di bawah Showcase
+    background-color: #F5F5F5; 
+    
+    // NAIKKAN SECTION INI UNTUK OVERLAP VISUAL
+    margin: 80px auto 92px;
+
+    position: relative;
+    z-index: 1; // Pastikan ini lebih rendah dari Showcase (z-index: 5)
+    
+    padding-bottom: 100px; 
+    
+    .features-grid {
+        // Frame 17918 (3 Card Grid)
+        display: flex;
+        flex-direction: row;
+        justify-content: center; // Menengahkan grid di dalam container
+        align-items: center;
+        gap: 36px; // Jarak antar card
+        width: 100%;
+
+        .service-card {
+            // Frame 8, 9, 10
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 36px;
+            gap: 24px;
+            
+            width: 392px; // Lebar Card Tetap
+            height: 232px; // Tinggi Card Tetap
+
+            background: #FFFFFF;
+            // Box Shadow spesifik
+            box-shadow: 32px 38px 30px rgba(0, 0, 0, 0.01), 14px 17px 22px rgba(0, 0, 0, 0.02), 4px 4px 12px rgba(0, 0, 0, 0.02);
+            border-radius: 24px;
+            flex-grow: 0;
+            flex-shrink: 0; 
+
+            .card-icon {
+                width: 48px;
+                height: 48px;
+            }
+            
+            .card-title {
+                font-family: 'Outfit';
+                font-weight: 700; 
+                font-size: 24px;
+                line-height: 30px;
+                color: #0F0F35;
+                margin-bottom: 12px;
+            }
+            
+            .card-description {
+                font-family: 'Outfit';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #0F0F35;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+// resources/sass/base/_variables.scss
+
+// Colors (Gunakan nama yang deskriptif)
+$color-primary: #1D5B99;       // Biru Utama (untuk tombol dan aksen)
+$color-secondary: #00CC00;     // Hijau (untuk elemen aksen lain jika ada)
+$color-text-dark: #1E1E1E;     // Warna teks gelap (hampir hitam)
+$color-text-light: #595959;    // Warna teks abu-abu/sekunder
+$color-background: #FFFFFF;    // Warna latar belakang utama (putih)
+$color-light-grey: #F5F5F5;    // Warna latar belakang terang (seperti di Hero)
+
+// Typography
+$font-family-primary: 'Outfit', sans-serif; // KOREKSI: Menggunakan Outfit
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-semibold: 600; // Tambahkan semibold karena Outfit punya weight 600
+$font-weight-regular: 400;
+$font-weight-light: 300; // Tambahkan light
+
+// Spacing (Opsional, tapi membantu konsistensi)
+$spacing-xxl: 60px;
+$spacing-xl: 40px;
+$spacing-lg: 30px;
+$spacing-md: 20px;
+$spacing-sm: 10px;
