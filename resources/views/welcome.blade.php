@@ -12,6 +12,8 @@
     @include('components.hero')
     @include('components.features')
     @include('components.client')
+    @include('components.review')
+    @include('components.footer')
 
     {{-- Section-section lain akan di-include di bawah ini --}}
     {{-- @include('components.pricing') --}}

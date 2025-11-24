@@ -1,16 +1,9 @@
-<section class="hero-section">
+<section class="footer-section">
     <div class="container">
+        <div class="title">
+            <h1>Tingkatkan Penjualan Anda. <br> Buat Katalog Produk Anda Sekarang!</h1>
+        </div>
 
-        <nav class="hero-navbar">
-            <div class="logo">
-                <img src="{{ asset('assets/images/ordo-logo.svg') }}" alt="ORDO Logo" class="logo-image">
-            </div>
-        </nav>
-
-        {{-- Judul Utama --}}
-        <h1 class="hero-title">Buat Website Katalog Perusahaan Anda Mulai dari <span>2 JT!</span></h1>
-
-        {{-- Frame Kontak (Grup CTA WhatsApp) --}}
         <div class="hero-contact-group">
             
             <div class="contact-card">
@@ -27,12 +20,6 @@
                     <img src="assets/images/arrow-button.svg" alt="">
                 </a>
             </div>
-            
-            <p class="contact-sub-text">
-                Tingkatkan Penjualan Anda?<br>
-                Katalog Produk Anda Sekarang!
-            </p>
         </div>
-        
     </div>
 </section>

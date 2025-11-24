@@ -1,14 +1,9 @@
 // resources/sass/sections/_features.scss
 
 .features-section {
-    // Background section di bawah Showcase
-    background-color: #F5F5F5; 
-    
-    // NAIKKAN SECTION INI UNTUK OVERLAP VISUAL
-    margin: 80px auto 92px;
+    background-color: #F5F5F5;
 
-    position: relative;
-    z-index: 1; // Pastikan ini lebih rendah dari Showcase (z-index: 5)
+
     
     padding-bottom: 100px; 
     
