@@ -1,6 +1,22 @@
 {{-- resources/views/components/features.blade.php --}}
 
 <section class="features-section">
+
+    <div class="showcase-group-wrapper">
+        <div class="showcase-group-3">
+
+            <div class="showcase-mockup-row">
+                <div class="mockup-item mockup-1"><img src="{{ asset('assets/images/mockup1.svg') }}" alt="Tablet in Hand Mockup"></div>
+                <div class="mockup-item mockup-2"><img src="{{ asset('assets/images/mockup2.svg') }}" alt="Central Screen Mockup"></div>
+                <div class="mockup-item mockup-3"><img src="{{ asset('assets/images/mockup3.svg') }}" alt="Keyboard With Tablet Mockup"></div>
+            </div>
+            
+            <div class="floating-item item-left"><img src="{{ asset('assets/images/mockup-popup1.svg') }}" alt="Floating Detail Left"></div>
+            <div class="floating-item item-right"><img src="{{ asset('assets/images/mockup-popup2.svg') }}" alt="Floating Detail Right"></div>
+
+        </div>
+    </div>
+
     <div class="container">
         
         {{-- Frame 17918: 3 CARD SAJA --}}
